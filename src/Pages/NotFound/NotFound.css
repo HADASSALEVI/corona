@@ -1,0 +1,8 @@
+.notFoundDiv{
+    background-color: rgb(241, 175, 31);
+    color: rgb(54, 11, 122);
+    padding: 20vh;
+    margin: auto;
+    text-align: center;
+    height: 100vh; 
+}

@@ -1,0 +1,29 @@
+
+
+.navDiv{
+    background-color: rgb(54, 11, 122);
+    margin: 0px;
+    height: 15vh;
+    text-align: center;
+    color: #fff;
+    padding-top: 10vh;
+
+    
+}
+
+.navInput{
+    color: #fff;
+    background-color: rgb(54, 11, 122);
+    padding: 0px;
+    font-size: x-large;
+    top: 0px;
+    width: 30vh;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    top: 15vh;
+    font-size: x-large;
+    padding-top: 15vh;
+}

@@ -1,0 +1,32 @@
+.countriesDiv{
+    background-color: rgb(241, 175, 31);
+    color: rgb(54, 11, 122);
+    padding: 20vh;
+    margin: auto;
+    text-align: center;
+    height: 160vh;
+    padding: 0px;
+}
+
+.infoDiv{
+    float: left;
+    width: 50%;
+    /* border: 1px rgb(54, 11, 122)solid;
+    border-radius: 5px; */
+    justify-content: space-between;
+    height: 30vh;
+    align-items: center;
+    margin: 20px,0px, 0px, 20px, 0px;
+}
+
+.countriesDiv h1{
+    margin: 0px;
+    padding-top: 15px;
+}
+
+.infoDiv h4,.infoDiv h2{
+    padding: 5px;
+    margin: 0px;
+    display: block;
+}
+

@@ -1,0 +1,38 @@
+.covidHome{
+    background-color: rgb(241, 175, 31);
+    color: rgb(54, 11, 122);
+    padding: 20vh;
+    margin: auto;
+    text-align: center;
+    height: 160vh;
+}
+
+hr{
+    margin: 0px;
+    padding: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 3vh;
+}
+
+.homaLabel{
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    float: left;
+    line-height: normal;
+    width: 50%;
+    /* height: 100vh; */
+    margin: 15px;
+    padding: auto;
+    justify-content: space-between;
+    padding: 10px;
+    display: block;
+    /* text-align: center; */
+    border:1px rgb(121, 114, 114)solid;
+    border-radius: 5px;
+}
+
+
+.homaLabel h2,h4{
+margin: 0px;
+}

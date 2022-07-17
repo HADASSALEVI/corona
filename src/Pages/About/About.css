@@ -1,0 +1,13 @@
+.aboutDiv{
+    background-color: rgb(241, 175, 31);
+    color: rgb(54, 11, 122);
+    height: 100vh;
+    text-align:left;
+}
+
+.about{
+    padding:15vh;
+    margin: auto;
+    width: 45%;
+
+}
