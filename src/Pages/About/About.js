@@ -3,14 +3,9 @@ import './About.css'
 
 const About = () => {
 
-  // function numberWithCommas(x) {
-  //   return (isString(x) ? x : x?.toString())?.replace(
-  //     /\B(?=(\d{3})+(?!\d))/g,
-  //     ","
-  //   );
-  // }
-  var num = [4,5,1,3];
-  console.log(Math.max.apply(null, num));
+  let myNumbers = [22,1,8,4,17];
+  myNumbers.sort((a,b) => b-a);
+  console.log(myNumbers);
 
   return (
     <div className='aboutDiv'>

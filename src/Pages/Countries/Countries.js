@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import "./Countries.css";
 
-const Countries = ({ country, name }) => {
+const Countries = ({ country, name}) => {
   const [newInfo, setNewInfo] = useState("");
   const [dataArr, setDataArr] = useState([]);
   const params = useParams();
@@ -34,8 +34,8 @@ const Countries = ({ country, name }) => {
     }
     // console.log(name);
     // setCovidIn( data.data)
-    console.log(newInfo);
-    console.log(dataArr);
+    // console.log(newInfo);
+    // console.log(dataArr);
   }, [dataArr]);
 
  

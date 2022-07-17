@@ -14,6 +14,7 @@ function App() {
   const [value, setValue] = useState();
 
 
+
   return (
     <div>
     <BrowserRouter>
@@ -22,7 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/:countriess" element={<Countries/>} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />}  />
       </Routes>
     </BrowserRouter>
   </div>
